@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600px" height="301px" viewBox="0 0 1600 301" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 54.1 (76490) - https://sketchapp.com -->
+    <title>0270831F-6B59-42A6-A07B-3394D482B707</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="1.13686838e-13" width="1600" height="301"></rect>
+    </defs>
+    <g id="Shutter-Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Arora-home" transform="translate(0.000000, -2147.000000)">
+            <g id="Section-3" transform="translate(0.000000, 2147.000000)">
+                <g id="image-5">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use fill="#14171F" fill-rule="nonzero" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
