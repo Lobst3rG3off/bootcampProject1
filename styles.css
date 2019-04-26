@@ -7,15 +7,63 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary
 .visuallyHidden:not(:focus):not(:active) { position: absolute; width: 1px; height: 1px; margin: -1px;border: 0;padding: 0;white-space: nowrap;clip-path: inset(100%);clip: rect(00 0 0);overflow: hidden;}
 
 
-/* wrapper */
+/* global */
 .wrapper {
-    width: 80%;
-    height: 100%;
+    max-width: 1080px;
     margin: 0 auto;
+}
+
+img{
+    width: 100%;
+}
+h1 {
+    font-size: 80px;
+    color: white;
+    text-transform: uppercase;
+    margin: 0 auto;
+    min-height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    
+}
+
+h1 span {
+    display: block;
+}
+
+ul {
+    padding: 0;
+    margin-left: 0;
+}
+
+li{     
+        list-style-type: none;
+        font-family: Lato;
+        font-size: 20px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.45;
+        letter-spacing: normal;
+        color: #faba63;
+        float: left;
+        margin: 3% 4%;
+    }
+
+
+
+
+
+
+section {
+    padding: 100px 0;
 }
 
 header {
     background-image:url("../project1/group-4.png");
+    background-repeat: no-repeat;
 }
 
 /* Hero Image */
@@ -27,7 +75,14 @@ header {
 }
 
 .heroSubtext {
-    
     font-family: Lato;
+    font-size: 45px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.02;
+    letter-spacing: normal;
+    text-align: center;
+    color: #faba63;
     
 }
