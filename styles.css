@@ -22,6 +22,7 @@ section {
 }
 
 h1 {
+    font-family: Italiana;
     font-size: 10.6rem;
     color: white;
     text-transform: uppercase;
@@ -41,18 +42,18 @@ h1 span {
 
 ul.topMenu{
     padding: 0;
-    margin-left: 25%;
+    margin-left: 15%;
 }
 
-ul li.topMenu{     
+.topMenu li {
         list-style-type: none;
         font-family: Lato;
-        font-size: 20px;
+        font-size: 15px;
         line-height: 1.45;
         letter-spacing: normal;
         color: #faba63;
         float: left;
-        margin: 3% 4%;
+        margin: 3% 3%;
         text-decoration: none;
     }
 
@@ -76,7 +77,7 @@ background-size: cover;
 /* Hero Image */
 .heroText {
     
-    font-family: Italiana;
+    
     
     
 }
