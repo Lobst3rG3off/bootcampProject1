@@ -39,12 +39,12 @@ h1 span {
     margin-left: 270px;
 }
 
-ul .topMenu{
+ul.topMenu{
     padding: 0;
     margin-left: 25%;
 }
 
-li .topMenu{     
+ul li.topMenu{     
         list-style-type: none;
         font-family: Lato;
         font-size: 20px;
@@ -53,6 +53,7 @@ li .topMenu{
         color: #faba63;
         float: left;
         margin: 3% 4%;
+        text-decoration: none;
     }
 
 
@@ -97,9 +98,9 @@ background-size: cover;
     position: absolute;
     bottom: 0px;
     right: 0;
-    line-height: 56px;
-    font-size: 2.3rem;
-
+    line-height: 36px;
+    font-size: 1.3rem;
+    text-align: center;
     }
 
 
@@ -206,26 +207,30 @@ float: left;
 .subFooter {
     clear: both;
     width: 100%;
+    color: white;
+    background: black;
 }
 
-nav.subFooter {
-    
-    
-    
+ nav.clearfix {
+    width: 24%;
+     border: 1px solid red;
+     float: left;
+     display: inline-block;
 }
+
+
 
 .subFooterMenu {
-    display: block;
-    border: 1px solid red;
+    text-transform: uppercase;
+    border: 1px solid green;
     list-style-type: none;
-    width: 25%;
     float: left;
 
 
 }
 
 form {
-    width: 50%;
+    width: 49%;
     float: left;
     border: 1px solid red;
     height: 130px;
@@ -233,9 +238,10 @@ form {
 }
 
 .contactUs {
-    width: 25%;
+    width: 27%;
     float: left;
     border: 1px solid red;
+    
 }
 
 
