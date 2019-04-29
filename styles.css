@@ -13,19 +13,22 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary
     margin: 0 auto;
 }
 
-img{
-    width: 100%;
+img {
+    max-width: 100%;
 }
+
+section {
+    padding: 100px 0;
+}
+
 h1 {
     font-size: 10.6rem;
     color: white;
     text-transform: uppercase;
     margin: 0 auto;
-    min-height: 100vh;
-    background-position: center center;
-    background-size: cover;
     text-align: center;
     width: 100%;
+    line-height: 151px;
     
 
     
@@ -33,6 +36,7 @@ h1 {
 
 h1 span {
     display: block;
+    margin-left: 270px;
 }
 
 ul {
@@ -44,9 +48,6 @@ li{
         list-style-type: none;
         font-family: Lato;
         font-size: 20px;
-        font-weight: normal;
-        font-style: normal;
-        font-stretch: normal;
         line-height: 1.45;
         letter-spacing: normal;
         color: #faba63;
@@ -66,6 +67,9 @@ section {
 header {
     background-image:url("../project1/Assets/group-4.png");
     background-repeat: no-repeat;
+    min-height: 100vh;
+background-position: center center;
+background-size: cover;
 }
 
 /* Hero Image */
@@ -86,5 +90,52 @@ header {
     letter-spacing: normal;
     text-align: center;
     color: #faba63;
+    margin-left: 208px;
+}
+
+.socialMedia {
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    line-height: 56px;
+    font-size: 2.3rem;
+
+    }
+
+
+
+.socialMedia .icon {
+    color: white;
     
 }
+
+
+/* handcrafted section */
+.backgroundGrey {
+    width: 1600px;
+    height: 534px;
+    background-color: #14171f;
+}
+
+
+
+.handCrafted h2 {
+    width: 822.9px;
+    height: 40px;
+    font-family: Italiana;
+    font-size: 51px;
+    color: #ffffff;
+}
+
+.handCrafted.imageBox {
+    width: 25%;
+    float: left;
+}
+
+.handCraftedtext {
+    width: 75%;
+    float: left;
+}
+
+/* Latest Collection Gallery */
+
