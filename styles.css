@@ -139,6 +139,10 @@ background-size: cover;
 
 /* Latest Collection Gallery */
 
-.collectionGallery {
-    float: clear;
+.
+
+.galleryContainer img {
+    width: calc(100%/3 - 10px);
+    float: left;
+    margin: 5px;
 }
