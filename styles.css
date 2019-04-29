@@ -127,7 +127,7 @@ background-size: cover;
     color: #ffffff;
 }
 
-.handCrafted.imageBox {
+.handCrafted .imageBox {
     width: 25%;
     float: left;
 }
@@ -139,3 +139,6 @@ background-size: cover;
 
 /* Latest Collection Gallery */
 
+.collectionGallery {
+    float: clear;
+}
