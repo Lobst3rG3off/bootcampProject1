@@ -16,6 +16,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary
 img {
     max-width: 100%;
     display: block;
+    
 }
 
 section {
