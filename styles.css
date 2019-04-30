@@ -81,6 +81,8 @@ background-size: cover;
 }
 
 .burgerMenu {
+    float: right;
+    margin-top: 2.2%;
     visibility: hidden;
 }
 
@@ -369,17 +371,24 @@ footer p {
     float: none;
     display: block;
 }
-
-    .posts {
-        float: none;
-    }
-    /* getting blog posts picture on top of posts
-
-
-} */
+}
 
 
 
-@media only screen and (max-width: 600px) {
-    
+
+@media only screen and (max-width: 425px) {
+header {
+    background-image: url("/Assets/image-1-mobile.png");}
+}
+.socialMedia {
+    display: none;
+
+}
+
+.topMenu {
+    display: none;
+}
+
+.burgerMenu {
+    visibility: visable;
 }
