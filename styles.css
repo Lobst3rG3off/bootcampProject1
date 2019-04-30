@@ -115,13 +115,11 @@ background-size: cover;
 /* handcrafted section */
 .backgroundGrey {
     width: 100%;
-    height: 534px;
     background-color: #14171f;
 }
 
 .backgroundBlack {
     width: 100%;
-    height: 534px;
     background: black;
 }
 
@@ -180,9 +178,9 @@ background-size: cover;
 
 /* Call to Action */
 
-/* .callToAction {
-
-} */
+i {
+    background-color: #faba63;
+}
 
 .iconBox {
     float: left;
