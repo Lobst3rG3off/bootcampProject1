@@ -217,9 +217,12 @@ i {
     margin: 5% 0 7%;
 }
 
+h3 {
+font-family: Italiana;
+color: white;
+}
+
 .iconBox h3 {
-    font-family: Italiana;
-    color: white;
     font-size: 2rem;
 }
 
@@ -258,8 +261,9 @@ padding: 8%;
     clear: both;
     width: 100%;
     color: white;
-    background: black;
+    background: #201e21;
     padding-top: 5%;
+
 }
 
  nav.clearfix {
@@ -269,6 +273,9 @@ padding: 8%;
     
 }
 
+.subFooter p {
+    font-family: Lato;
+}
 
 
 .subFooterMenu {
@@ -276,8 +283,10 @@ padding: 8%;
     border: 1px solid green;
     list-style-type: none;
     float: left;
+}
 
-
+.subFooterMenu li {
+    font-family: Italiana;
 }
 
 form {
@@ -286,6 +295,11 @@ form {
     border: 1px solid red;
     height: 130px;
     text-align: center;
+}
+
+.formButton {
+    font-family: CormorantGaramond;
+    text-transform: uppercase;
 }
 
 .contactUs {
@@ -312,4 +326,5 @@ footer p {
     letter-spacing: normal;
     text-align: center;
     color: #ffffff;
+    font-family: Lato;
 }
