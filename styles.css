@@ -24,11 +24,11 @@ section {
 
 h1 {
     font-family: Italiana;
-    font-size: 8.6rem;
+    font-size: 7.4rem;
     color: white;
     text-transform: uppercase;
-    margin-left: 10.4%;
-    line-height: 151px;
+    margin-left: 5.4%;
+    line-height: 125px;
     
 
     
@@ -41,7 +41,7 @@ h1 span {
 
 ul.topMenu{
     padding: 0;
-    margin-left: 10%;
+    margin-left: 4%;
 }
 
 .topMenu li {
@@ -52,7 +52,7 @@ ul.topMenu{
         letter-spacing: normal;
         color: #faba63;
         float: left;
-        margin: 3% 3%;
+        margin: 2% 2%;
         text-decoration: none;
     }
 
