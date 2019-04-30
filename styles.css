@@ -177,8 +177,12 @@ background: #14171f;
     border: solid 2px #faba63;
     text-align: center;
     margin: 5% 0;
-    padding: 14px 0;
+    padding: 10px 0;
     display: block;
+    font-family: Italiana;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.3rem;
 }
 
 /* Latest Collection Gallery */
