@@ -242,6 +242,7 @@ padding: 8%;
 .posts {
     background: #201e26;
     height: 50%;
+    padding: 0;
 }
 
 .posts h2 {
