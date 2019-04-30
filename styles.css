@@ -176,7 +176,7 @@ background: #14171f;
     height: 50px;
     border: solid 2px #faba63;
     text-align: center;
-    margin: 0 auto;
+    margin: 5% 0;
     padding: 14px 0;
     display: block;
 }
@@ -222,7 +222,7 @@ i {
 .higher{
 width: 50%;
 float: left;
-padding: 10%;
+padding: 8%;
 }
 
 
@@ -237,16 +237,16 @@ padding: 10%;
     height: 50%;
 }
 
-.galleryText h2 {
+.posts h2 {
     font-family: Italiana;
     color: white;
     font-size: 2.5rem;
 }
 
-.galleryText p {
+.posts p {
     font-family: Lato;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 
@@ -255,6 +255,7 @@ padding: 10%;
     width: 100%;
     color: white;
     background: black;
+    padding-top: 5%;
 }
 
  nav.clearfix {
