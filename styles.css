@@ -155,7 +155,7 @@ background: #14171f;
     font-family: Italiana;
     font-size: 51px;
     color: #ffffff;
-    padding: 10% 10%;
+    padding: 10% 10% 6%;
 }
 
 .handCrafted .imageBox {
@@ -269,7 +269,7 @@ padding: 8%;
 }
 
  nav.clearfix {
-    width: 24%;
+    width: 20%;
      border: 1px solid red;
      float: left;
     
@@ -299,17 +299,35 @@ form {
     text-align: center;
 }
 
+
+form .contactFormInput
+    {
+        height: 40px;
+        width: 250px;
+    }
+
+
 .formButton {
-    font-family: CormorantGaramond;
+    font-family: Italiana;
     text-transform: uppercase;
+    background: black;
+    color: white;
+    border: 1px solid black;
+    height: 40px;
+    width: 120px;
 }
 
 .contactUs {
-    width: 27%;
-    float: left;
-    border: 1px solid red;
-    line-height: 1.45px;
+   width: 30%;
+   float: left;
+   border: 1px solid red;
+   line-height: 18.45px;
     
+}
+
+.contactUs h3 {
+padding-left: 55px;
+
 }
 
 
