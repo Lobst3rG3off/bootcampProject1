@@ -28,7 +28,6 @@ h1 {
     color: white;
     text-transform: uppercase;
     margin-left: 10.4%;
-    width: 51.5%;
     line-height: 151px;
     
 
@@ -59,13 +58,6 @@ ul.topMenu{
 
 
 
-
-
-
-section {
-    padding: 100px 0;
-}
-
 header {
     background-image:url("/Assets/group-4.png");
     background-repeat: no-repeat;
@@ -76,7 +68,7 @@ background-size: cover;
 
 /* Hero Image */
 .heroText {
-    
+    width: 51.5%;
     
     
     
