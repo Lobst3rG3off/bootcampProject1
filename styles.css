@@ -15,6 +15,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary
 
 img {
     max-width: 100%;
+    display: block;
 }
 
 section {
@@ -204,7 +205,7 @@ i {
 .higher{
 width: 50%;
 float: left;
-
+padding: 10%;
 }
 
 
