@@ -77,10 +77,11 @@ background-size: cover;
 
 /* Hero Image */
 .heroText {
-    width: 51.5%;
-    
-    
-    
+    width: 51.5%;  
+}
+
+.burgerMenu {
+    visibility: hidden;
 }
 
 .heroSubtext {
@@ -307,6 +308,7 @@ form {
     width: 27%;
     float: left;
     border: 1px solid red;
+    line-height: 1.45px;
     
 }
 
