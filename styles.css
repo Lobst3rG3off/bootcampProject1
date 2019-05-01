@@ -69,7 +69,7 @@ ul.topMenu {
 
 
 header {
-    background-image: url("/Assets/group-4.png");
+    background-image: url("./Assets/group-4.png");
     background-repeat: no-repeat;
     min-height: 100vh;
     background-position: center center;
@@ -546,12 +546,12 @@ footer p {
         display: inline;
     }
 
-}
+
 
 
 @media only screen and (max-width: 454px) {
     header {
-        background-image: url("/Assets/image-1-mobile.png");
+        background-image: url("./Assets/image-1-mobile.png");
     }
 
     .burgerMenu {
