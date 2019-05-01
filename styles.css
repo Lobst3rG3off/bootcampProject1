@@ -119,15 +119,7 @@ background-size: cover;
 
 
 /* handcrafted section */
-/* .backgroundGrey {
-    width: 100%;
-    background-color: #14171f;
-}
 
-.backgroundBlack {
-    width: 100%;
-    background: black;
-} */
 
 .galleryContainer h2 {
     font-family: Italiana;
@@ -161,13 +153,13 @@ background: #14171f;
 }
 
 .handCrafted .imageBox {
-    width: 25%;
+    width: 30%;
     float: left;
     padding-top: 9%;
 }
 
 .handCraftedtext {
-    width: 75%;
+    width: 70%;
     float: left;
     color: #ffffff;
     line-height: 25px;
@@ -368,11 +360,37 @@ footer p {
 
 
 
-@media (max-width : 1127px) {
+@media (max-width : 1024px) {
 * {
-    float: none;
     display: block;
 }
+
+img {
+    width: 100%;
+}
+
+.gallery1Image {
+    width: 100%;
+}
+
+.higher {
+    width: 100%;
+}
+
+.galleryBox {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.posts p {
+    padding-bottom: 5%;
+    font-size: 1.3rem;
+}
+
+.button {
+    margin: 0 auto;
+}
+
 }
 
 
