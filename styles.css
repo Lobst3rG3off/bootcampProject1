@@ -480,6 +480,85 @@ width: 95%;
 
 
 
+@media (max-width : 503px) {
+
+.handCrafted {
+
+    height: 940px;
+
+}
+
+
+    .handCrafted h2 {
+        padding-left: 0%;
+        margin-left: 5%;
+        margin-bottom: 9%;
+
+        }
+
+.galleryContainer img {
+
+    width: calc(100%/2 - 10px);
+    float: left;
+    margin: 5px;
+    margin-bottom: 5%;
+
+}
+
+.iconBox {
+
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    margin: 5% 0 7%;
+
+}
+
+nav.clearfix {
+
+    width: 100%;
+    text-align: center;
+
+}
+
+.subFooterMenu {
+    margin-bottom: 15%;
+}
+
+.subFooterMenu li {
+    float: left;
+    margin-right: 48px;
+}
+
+form {
+
+    width: 100%;
+
+
+
+}
+
+.contactUs {
+
+    width: 100%;
+    margin-bottom: 5%;
+    text-align: center;
+
+
+}
+
+.contactUs h3 {
+    padding-left: 0;
+    padding-bottom: 5%;
+
+}
+
+.contactUs span {
+    display: inline;
+}
+
+    }
 
 
 
@@ -487,9 +566,7 @@ width: 95%;
 
 
 
-
-
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 454px) {
 header {
     background-image: url("/Assets/image-1-mobile.png");}
 
@@ -506,6 +583,12 @@ header {
     display: none;
 }
 
+.handCrafted {
+
+    height: 945px;
+
+}
+
 .handCrafted h2 {
     font-size: 2rem;
         padding-left: 0%;
@@ -516,4 +599,28 @@ header {
 
 }
 
+
+@media (max-width : 380px) {
+
+
+    .handCraftedtext p {
+        margin-bottom: 5%;
+    }
+
+    
+.subFooterMenu li {
+
+    float: left;
+    margin-right: 22px;
+
+}
+
+    .contactUs {
+        
+
+            margin-top: 10%;
+
+        
+    }
+}
 
