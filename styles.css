@@ -23,12 +23,12 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary
 img {
     max-width: 100%;
     display: block;
-    
+
 }
 
 section {
     width: 100%;
-    padding: 0 10% ;
+    padding: 0 10%;
 }
 
 h1 {
@@ -39,9 +39,9 @@ h1 {
     margin-left: 5.4%;
     margin-bottom: -10%;
     line-height: 125px;
-    
 
-    
+
+
 }
 
 h1 span {
@@ -49,36 +49,36 @@ h1 span {
     margin-left: 30%;
 }
 
-ul.topMenu{
+ul.topMenu {
     padding: 0;
     margin-left: 4%;
 }
 
 .topMenu li {
-        list-style-type: none;
-        font-family: Lato;
-        font-size: 15px;
-        line-height: 1.45;
-        letter-spacing: normal;
-        color: #faba63;
-        float: left;
-        margin: 2% 2%;
-        text-decoration: none;
-    }
+    list-style-type: none;
+    font-family: Lato;
+    font-size: 15px;
+    line-height: 1.45;
+    letter-spacing: normal;
+    color: #faba63;
+    float: left;
+    margin: 2% 2%;
+    text-decoration: none;
+}
 
 
 
 header {
-    background-image:url("/Assets/group-4.png");
+    background-image: url("/Assets/group-4.png");
     background-repeat: no-repeat;
     min-height: 100vh;
-background-position: center center;
-background-size: cover;
+    background-position: center center;
+    background-size: cover;
 }
 
 /* Hero Image */
 .heroText {
-    width: 51.5%;  
+    width: 51.5%;
 }
 
 .burgerMenu {
@@ -107,14 +107,14 @@ background-size: cover;
     line-height: 36px;
     font-size: 1.3rem;
     text-align: center;
-    
-    }
+
+}
 
 
 
 .socialMedia i {
     color: white;
-    
+
 }
 
 
@@ -134,13 +134,13 @@ background-size: cover;
 }
 
 .handCrafted {
-   background:  #14171f;
-   width: 100%;
-   height: 500px;
+    background: #14171f;
+    width: 100%;
+    height: 500px;
 }
 
 .handCraftedBox {
-background: #14171f;
+    background: #14171f;
 }
 
 .handCrafted h2 {
@@ -197,11 +197,6 @@ background: #14171f;
 
 
 
-/* .left {
-    float: left;
-} */
-
-
 /* Call to Action */
 
 .callToaction {
@@ -221,24 +216,24 @@ i {
 }
 
 h3 {
-font-family: Italiana;
-color: white;
+    font-family: Italiana;
+    color: white;
 }
 
 .iconBox h3 {
     font-size: 2rem;
 }
 
-.higher{
-width: 50%;
-float: left;
-padding: 8%;
+.higher {
+    width: 50%;
+    float: left;
+    padding: 8%;
 }
 
 
- .gallery1Image {
+.gallery1Image {
     width: 50%;
-  float: left;
+    float: left;
 }
 
 
@@ -278,9 +273,9 @@ padding: 8%;
     text-transform: uppercase;
 }
 
- nav.clearfix {
+nav.clearfix {
     width: 17%;
-     float: left;
+    float: left;
     margin-right: 8%;
 }
 
@@ -307,11 +302,10 @@ form {
 }
 
 
-form .contactFormInput
-    {
+form .contactFormInput {
     height: 40px;
     width: 225px;
-    }
+}
 
 
 .formButton {
@@ -325,15 +319,15 @@ form .contactFormInput
 }
 
 .contactUs {
-   width: 26%;
-   float: left;
-   line-height: 18.45px;
-   
-    
+    width: 26%;
+    float: left;
+    line-height: 18.45px;
+
+
 }
 
 .contactUs h3 {
-padding-left: 55px;
+    padding-left: 55px;
 
 }
 
@@ -346,6 +340,7 @@ footer {
     background-color: #000000;
     padding-top: 10px;
 }
+
 footer p {
     font-size: 15px;
     font-weight: normal;
@@ -363,72 +358,73 @@ footer p {
 
 
 @media (max-width : 1024px) {
-* {
-    display: block;
-}
+    * {
+        display: block;
+    }
 
-img {
-    width: 100%;
-}
-
-
-.galleryContainer img {
-
-    width: calc(100%/2 - 10px);
-    float: left;
-    margin: 5px;
-
-}
-
-.dropOff {
-    display: none;
-}
-
-.gallery1Image {
-    width: 100%;
-}
-
-.higher {
-    width: 100%;
-}
-
-.galleryBox {
-    margin: 0 auto;
-    text-align: center;
-}
-
-.posts p {
-    padding-bottom: 5%;
-    font-size: 1.3rem;
-}
-
-.button {
-    margin: 0 auto;
-}
+    img {
+        width: 100%;
+    }
 
 
-.subFooter {
-    clear: both;
-    width: 100%;
-    color: white;
-    background: #201e21;
-    padding-top: 2%;
-}
+    .galleryContainer img {
 
-form .contactFormInput {
-    height: 40px;
-    width: 95%;
-}
-.formButton{
-width: 95%;
-}
+        width: calc(100%/2 - 10px);
+        float: left;
+        margin: 5px;
+
+    }
+
+    .dropOff {
+        display: none;
+    }
+
+    .gallery1Image {
+        width: 100%;
+    }
+
+    .higher {
+        width: 100%;
+    }
+
+    .galleryBox {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .posts p {
+        padding-bottom: 5%;
+        font-size: 1.3rem;
+    }
+
+    .button {
+        margin: 0 auto;
+    }
+
+
+    .subFooter {
+        clear: both;
+        width: 100%;
+        color: white;
+        background: #201e21;
+        padding-top: 2%;
+    }
+
+    form .contactFormInput {
+        height: 40px;
+        width: 95%;
+    }
+
+    .formButton {
+        width: 95%;
+    }
 }
 
 @media (max-width: 990px) {
 
-.handCrafted {
-    height: 1235px;
-}
+    .handCrafted {
+        height: 1305px;
+    }
 
 
 
@@ -440,15 +436,19 @@ width: 95%;
         width: 100%;
     }
 
-.handCraftedtext h2 {
-    
-        margin-left: 18%;
-    
-}
+    .handCraftedtext h2 {
 
-.contactUs span {
-    display: block;
-}
+        margin-left: 18%;
+
+    }
+
+    .contactUs {
+        margin: 0;
+    }
+
+    .contactUs span {
+        display: block;
+    }
 
 }
 
@@ -474,7 +474,10 @@ width: 95%;
         height: 1070px;
     }
 
-
+    .subFooter {
+        margin-bottom: 0px;
+        padding-bottom: 4%;
+    }
 
 }
 
@@ -482,145 +485,111 @@ width: 95%;
 
 @media (max-width : 503px) {
 
-.handCrafted {
-
-    height: 940px;
-
-}
+    .handCrafted {
+        height: 940px;
+    }
 
 
     .handCrafted h2 {
         padding-left: 0%;
         margin-left: 5%;
         margin-bottom: 9%;
-
-        }
-
-.galleryContainer img {
-
-    width: calc(100%/2 - 10px);
-    float: left;
-    margin: 5px;
-    margin-bottom: 5%;
-
-}
-
-.iconBox {
-
-    float: left;
-    width: 100%;
-    text-align: center;
-    font-size: 40px;
-    margin: 5% 0 7%;
-
-}
-
-nav.clearfix {
-
-    width: 100%;
-    text-align: center;
-
-}
-
-.subFooterMenu {
-    margin-bottom: 15%;
-}
-
-.subFooterMenu li {
-    float: left;
-    margin-right: 48px;
-}
-
-form {
-
-    width: 100%;
-
-
-
-}
-
-.contactUs {
-
-    width: 100%;
-    margin-bottom: 5%;
-    text-align: center;
-
-
-}
-
-.contactUs h3 {
-    padding-left: 0;
-    padding-bottom: 5%;
-
-}
-
-.contactUs span {
-    display: inline;
-}
-
     }
 
+    .galleryContainer img {
+        width: calc(100%/2 - 10px);
+        float: left;
+        margin: 5px;
+        margin-bottom: 5%;
+    }
 
+    .iconBox {
+        float: left;
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+        margin: 5% 0 7%;
+    }
 
+    nav.clearfix {
+        width: 100%;
+        text-align: center;
+    }
 
+    .subFooterMenu {
+        margin-bottom: 15%;
+    }
 
+    .subFooterMenu li {
+        float: left;
+        margin-right: 48px;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    .contactUs {
+        width: 100%;
+        margin-bottom: 5%;
+        text-align: center;
+    }
+
+    .contactUs h3 {
+        padding-left: 0;
+        padding-bottom: 5%;
+    }
+
+    .contactUs span {
+        display: inline;
+    }
+
+}
 
 
 @media only screen and (max-width: 454px) {
-header {
-    background-image: url("/Assets/image-1-mobile.png");}
+    header {
+        background-image: url("/Assets/image-1-mobile.png");
+    }
 
-.burgerMenu {
-    visibility: visible;
+    .burgerMenu {
+        visibility: visible;
         margin-right: 5%;
-    
-}
+    }
 
-.topMenu {
-    display: none;
-}
-.socialMedia {
-    display: none;
-}
+    .topMenu {
+        display: none;
+    }
 
-.handCrafted {
+    .socialMedia {
+        display: none;
+    }
 
-    height: 945px;
+    .handCrafted {
+        height: 945px;
+    }
 
-}
-
-.handCrafted h2 {
-    font-size: 2rem;
+    .handCrafted h2 {
+        font-size: 2rem;
         padding-left: 0%;
         padding-bottom: 12%;
-
-    
-}
+    }
 
 }
 
 
 @media (max-width : 380px) {
-
-
     .handCraftedtext p {
         margin-bottom: 5%;
     }
 
-    
-.subFooterMenu li {
 
-    float: left;
-    margin-right: 22px;
-
-}
+    .subFooterMenu li {
+        float: left;
+        margin-right: 22px;
+    }
 
     .contactUs {
-        
-
-            margin-top: 10%;
-
-        
+        margin-top: 10%;
     }
 }
-
