@@ -371,6 +371,19 @@ img {
     width: 100%;
 }
 
+
+.galleryContainer img {
+
+    width: calc(100%/2 - 10px);
+    float: left;
+    margin: 5px;
+
+}
+
+.dropOff {
+    display: none;
+}
+
 .gallery1Image {
     width: 100%;
 }
@@ -439,7 +452,14 @@ width: 95%;
 
 }
 
-@media (max-width :821 ) {
+@media (max-width : 834) {
+
+    .subFooter {
+        height: 170px;
+    }
+}
+
+@media (max-width :821) {
 
     .handCrafted h2 {
         padding-left: 0%;
@@ -448,9 +468,52 @@ width: 95%;
     }
 }
 
+
+@media (max-width : 800) {
+    .handCrafted {
+        height: 1070px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 425px) {
 header {
     background-image: url("/Assets/image-1-mobile.png");}
+
+.burgerMenu {
+    visibility: visible;
+        margin-right: 5%;
+    
+}
+
+.topMenu {
+    display: none;
+}
+.socialMedia {
+    display: none;
+}
+
+.handCrafted h2 {
+    font-size: 2rem;
+        padding-left: 0%;
+        padding-bottom: 12%;
+
+    
+}
+
 }
 
 
